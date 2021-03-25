@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ATTENTION_REQUIRED</members>
-        <members>AUTO_RESOLVED_CONFLICTS</members>
-        <members>Add_Filter_Logic</members>
-        <members>BLOG_DESCRIPTION_SHORT</members>
-        <members>BODY</members>
-        <members>BRANCH</members>
-        <members>BRANCH_MGMT_LICENSE_EXCEEDED</members>
-        <members>BROWSER</members>
-        <name>CustomLabel</name>
+        <members>AppleWatch</members>
+        <members>AppleWatchTest</members>
+        <name>ApexClass</name>
     </types>
     <version>51.0</version>
 </Package>
