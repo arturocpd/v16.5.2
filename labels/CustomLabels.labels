@@ -73,6 +73,69 @@
         <value>Add/Update User</value>
     </labels>
     <labels>
+        <fullName>ATTENTION_REQUIRED</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ATTENTION REQUIRED</shortDescription>
+        <value>ATTENTION REQUIRED!</value>
+    </labels>
+    <labels>
+        <fullName>AUTO_RESOLVED_CONFLICTS</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AUTO RESOLVED CONFLICTS</shortDescription>
+        <value>Auto Resolved Conflicts</value>
+    </labels>
+    <labels>
+        <fullName>Add_Filter_Logic</fullName>
+        <categories>ComplianceRuleCriteria</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Filter Logic</shortDescription>
+        <value>Add Filter Logic</value>
+    </labels>
+    <labels>
+        <fullName>BLOG_DESCRIPTION_SHORT</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BLOG DESCRIPTION SHORT</shortDescription>
+        <value>Find the latest news and best practices tips for Salesforce release management.</value>
+    </labels>
+    <labels>
+        <fullName>BODY</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BODY</shortDescription>
+        <value>Body</value>
+    </labels>
+    <labels>
+        <fullName>BRANCH</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BRANCH</shortDescription>
+        <value>Branch</value>
+    </labels>
+    <labels>
+        <fullName>BRANCH_MGMT_LICENSE_EXCEEDED</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BRANCH MGMT LICENSE EXCEEDED</shortDescription>
+        <value>The maximum number of active connections has already been reached. Please deactivate some Deployment Flows or contact Sales@copa.do to increase your limit.</value>
+    </labels>
+    <labels>
+        <fullName>BROWSER</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BROWSER</shortDescription>
+        <value>Browser</value>
+    </labels>
+    <labels>
         <fullName>COMMITS_AHEAD</fullName>
         <language>en_US</language>
         <protected>true</protected>
