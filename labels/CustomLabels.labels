@@ -41,12 +41,28 @@
         <value>Add Authentication</value>
     </labels>
     <labels>
+        <fullName>ADD_DESTINATION_ORG</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ADD DESTINATION ORG</shortDescription>
+        <value>Add Destination Org</value>
+    </labels>
+    <labels>
         <fullName>ADD_HEADER</fullName>
         <categories>Copado</categories>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>ADD HEADER</shortDescription>
         <value>Add Header</value>
+    </labels>
+    <labels>
+        <fullName>ADD_UPDATE_USER</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ADD/UPDATE USER</shortDescription>
+        <value>Add/Update User</value>
     </labels>
     <labels>
         <fullName>COMMITS_AHEAD</fullName>
