@@ -2,9 +2,10 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>ACTION_COLUMN_HEADER</members>
-        <members>ACTIVATE_USERS</members>
         <members>ADD</members>
-        <members>ADD_AN_ENVIRONMENT</members>
+        <members>ADD_AUTHENTICATION</members>
+        <members>ADD_DESTINATION_ORG</members>
+        <members>ADD_UPDATE_USER</members>
         <name>CustomLabel</name>
     </types>
     <version>51.0</version>
