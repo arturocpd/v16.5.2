@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <label><!-- ASCII Test --></label>
+        <name>ASCII_Test__c</name>
+        <picklistValues>
+            <masterLabel>Afghanistan 93</masterLabel>
+            <translation><!-- Afghanistan 93 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- AccountLookup --></label>
         <name>AccountLookup__c</name>
         <relationshipLabel><!-- Accounts --></relationshipLabel>
@@ -26,6 +38,38 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Auto Resolve Field --></label>
+        <name>Auto_Resolve_test__c</name>
+        <picklistValues>
+            <masterLabel>Auto1</masterLabel>
+            <translation><!-- Auto1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto2</masterLabel>
+            <translation><!-- Auto2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto3</masterLabel>
+            <translation><!-- Auto3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto4</masterLabel>
+            <translation><!-- Auto4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto5</masterLabel>
+            <translation><!-- Auto5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto6</masterLabel>
+            <translation><!-- Auto6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto7</masterLabel>
+            <translation><!-- Auto7 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Big --></label>
         <name>Big__c</name>
     </fields>
@@ -44,14 +88,46 @@
             <masterLabel>Medium</masterLabel>
             <translation><!-- Medium --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plus</masterLabel>
+            <translation><!-- Plus --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
     </fields>
     <fields>
         <label><!-- External Id --></label>
         <name>External_Id__c</name>
     </fields>
     <fields>
+        <label><!-- Field 2 --></label>
+        <name>Field_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field 3 --></label>
+        <name>Field_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Install --></label>
+        <name>Install__c</name>
+    </fields>
+    <fields>
+        <label><!-- JCS_NUMBER --></label>
+        <name>JCS_NUMBER__c</name>
+    </fields>
+    <fields>
         <label><!-- Nested Test RT --></label>
         <name>Nested_Test_RT__c</name>
+        <picklistValues>
+            <masterLabel>Destructive 3</masterLabel>
+            <translation><!-- Destructive 3 --></translation>
+        </picklistValues>
         <picklistValues>
             <masterLabel>Destructive1</masterLabel>
             <translation><!-- Destructive1 --></translation>
@@ -125,8 +201,8 @@
             <translation><!-- Gold --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Iron</masterLabel>
-            <translation><!-- Iron --></translation>
+            <masterLabel>Plastic</masterLabel>
+            <translation><!-- Plastic --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Platinum</masterLabel>
@@ -165,6 +241,10 @@
             <translation><!-- No --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Of Course</masterLabel>
+            <translation><!-- Of Course --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Yes</masterLabel>
             <translation><!-- Yes --></translation>
         </picklistValues>
@@ -173,6 +253,10 @@
         <label><!-- xyz Account Number --></label>
         <name>xyz_Account_Number__c</name>
     </fields>
+    <recordTypes>
+        <label><!-- Auto Resolve RT --></label>
+        <name>Auto_Resolve_RT</name>
+    </recordTypes>
     <recordTypes>
         <label><!-- Business Account --></label>
         <name>Business_Account</name>

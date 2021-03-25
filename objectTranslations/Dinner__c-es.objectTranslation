@@ -28,6 +28,10 @@
             <translation><!-- Full --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>High Touch/High Urgency</masterLabel>
+            <translation><!-- High Touch/High Urgency --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Partial</masterLabel>
             <translation><!-- Partial --></translation>
         </picklistValues>
@@ -37,8 +41,16 @@
         <name>External_Auto__c</name>
     </fields>
     <fields>
+        <label><!-- FLS Test Dinner PS --></label>
+        <name>FLS_Test_Dinner_PS__c</name>
+    </fields>
+    <fields>
         <label><!-- LateDinner --></label>
         <name>LateDinner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nested Field Test --></label>
+        <name>Nested_Field_Test__c</name>
     </fields>
     <fields>
         <label><!-- Picklist Dinner Table --></label>
@@ -67,7 +79,7 @@
     <fields>
         <label><!-- Point of contact --></label>
         <name>Point_of_contact__c</name>
-        <relationshipLabel><!-- Dinners --></relationshipLabel>
+        <relationshipLabel>Cenas</relationshipLabel>
     </fields>
     <fields>
         <label><!-- TEST US --></label>

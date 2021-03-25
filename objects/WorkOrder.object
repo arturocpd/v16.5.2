@@ -185,6 +185,11 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -419,6 +424,15 @@
         <fullName>My_WorkOrders</fullName>
         <filterScope>Mine</filterScope>
         <label>My Work Orders</label>
+    </listViews>
+    <listViews>
+        <fullName>NA_Research_WorkOrder</fullName>
+        <filterScope>Queue</filterScope>
+        <label>NA - Research</label>
+        <queue>NA_Research</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Subject</customTabListAdditionalFields>

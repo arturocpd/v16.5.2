@@ -4,4 +4,5 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <tabs>standard-Chatter</tabs>
+    <tabs>OLS_Test__c</tabs>
 </CustomApplication>

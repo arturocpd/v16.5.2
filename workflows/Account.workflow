@@ -10,9 +10,19 @@
         <protected>false</protected>
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_account_2</fullName>
+        <field>Type</field>
+        <literalValue>Prospect</literalValue>
+        <name>update account 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
     <rules>
         <fullName>TB WF rule</fullName>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Account.Name</field>
             <operation>notEqual</operation>
@@ -22,7 +32,21 @@
             <operation>equals</operation>
             <value>Yes</value>
         </criteriaItems>
+        <criteriaItems>
+            <field>Account.NumberOfEmployees</field>
+            <operation>equals</operation>
+            <value>3</value>
+        </criteriaItems>
         <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>update_account</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Account.CreatedDate</offsetFromField>
+            <timeLength>29</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
         <workflowTimeTriggers>
             <actions>
                 <name>update_account</name>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Known Issue</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Known Issue</value>
+    </caseValues>
+    <fields>
+        <label><!-- ETA --></label>
+        <name>ETA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation><!-- Fixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixing</masterLabel>
+            <translation><!-- Fixing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In review</masterLabel>
+            <translation><!-- In review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Fix</masterLabel>
+            <translation><!-- No Fix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Steps to reproduce --></label>
+        <name>Steps_to_reproduce__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary --></label>
+        <name>Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tittle --></label>
+        <name>Tittle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Workaround --></label>
+        <name>Workaround__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

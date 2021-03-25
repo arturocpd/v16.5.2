@@ -193,6 +193,9 @@
         <fullName>IsReminderSet</fullName>
     </fields>
     <fields>
+        <fullName>IsVisibleInSelfService</fullName>
+    </fields>
+    <fields>
         <fullName>Location</fullName>
     </fields>
     <fields>
@@ -239,15 +242,7 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>3</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>4</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>5</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

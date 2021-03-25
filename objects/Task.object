@@ -142,6 +142,9 @@
         <fullName>IsReminderSet</fullName>
     </fields>
     <fields>
+        <fullName>IsVisibleInSelfService</fullName>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <type>Lookup</type>
     </fields>
@@ -364,6 +367,10 @@
         <label>General</label>
         <picklistValues>
             <picklist>AAATask__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>2</fullName>
                 <default>false</default>
